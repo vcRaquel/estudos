@@ -15,7 +15,7 @@ header{
 #bg{
     grid-area: left;
 
-    background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background: url('/images/home-bg-img.svg') no-repeat top/contain;
     background-position-x: -10rem;
 }
 
@@ -27,7 +27,7 @@ main{
     margin-top: -12rem;
 }
 
-main .container{
+main .container{    
     width: min(36.3rem, 100%);
 }
 
@@ -38,10 +38,10 @@ main h2{
     margin-bottom: 2.4rem;
 }
 
-
 input{
     border: .2rem solid var(--grey-blue);
     padding: 0 1.6rem;
+    outline: none;
 }
 
 input, button, .button{
@@ -49,21 +49,14 @@ input, button, .button{
     margin-bottom: 1.8rem;
 }
 
-.content header{
-    width: 80%;
-    margin: 3.5rem auto;
-}
-
-.content header img{
-    width: 16.7rem;
-}
 /* Separator Line */
-
 .separator{
     display: flex;
     align-items: center;
+
     margin: 4rem 0;
 }
+
 .separator div:nth-child(2){
     color: var(--grey-blue);
     font-family: 'Poppins', sans-serif;
@@ -79,7 +72,7 @@ input, button, .button{
     height: 1px;
 }
 
-/* create balls */
+/*** create balls ***/
 .ball{
     width: 21.2rem;
     height: 21.2rem;
@@ -98,6 +91,6 @@ input, button, .button{
 }
 
 .ball.bottom{
-    bottom: 0rem;
-    right: 11.6rem;
+    bottom: -15rem;
+    right: 5.6rem
 }
